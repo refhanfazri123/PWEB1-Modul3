@@ -1,0 +1,71 @@
+#body1{
+    background-color: lightskyblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#body2{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#body3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: lightgray;
+}
+.h1_formPemesanan{
+    margin-left: 30px;
+}
+.h1_dataKamar{
+    margin-left: 30px;
+}
+.h1_Fasilitas{
+    margin-left: 30px;
+}
+td{
+    height: 40px;
+}
+img{
+    width: 190px;
+    height: 140px;
+    border-style:solid;
+}
+.label1{
+    margin-left: 140px;
+}
+.label2{
+    margin-left: 140px;
+}
+.simpanFormPemesanan{
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+.batalFormPemesanan{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+.h3_Fasilitas{
+    text-align: right;
+    margin-right: 50px;
+    color: darkblue;
+
+}
+.h3_dataKamar{
+    text-align: left;
+    color: darkblue;
+}
+.input{
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+.batal{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+button{
+    padding: 5px;
+}

@@ -1,0 +1,98 @@
+body {
+  background-color: lightskyblue;
+}
+header {
+  display: flex;
+  background-color: aqua;
+  align-items: center;
+}
+.div1 {
+  display: flex;
+  gap: 738px;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: black;
+}
+nav {
+  background-color: darkblue;
+  display: inline-block;
+  width: 100%;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  background-color: darkblue;
+}
+nav a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  line-height: 60px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: #000;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+nav ul ul ul li {
+  position: relative;
+  top: -50px;
+  left: 170px;
+}
+nav ul ul ul ul li {
+  position: relative;
+  top: -50px;
+  left: 170px;
+}
+main {
+  flex: 1;
+  display: flex;
+  gap: 110px;
+  padding: 1px;
+}
+.div2 {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.div3 {
+  background-color: blueviolet;
+}
+table {
+  align-items: center;
+}
+td {
+  padding: 10px;
+}
+footer {
+  background-color: darkblue;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  padding: 1px;
+  margin-top: 4px;
+}
